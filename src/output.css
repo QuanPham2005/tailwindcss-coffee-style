@@ -580,6 +580,14 @@ video {
   top: 0.75rem;
 }
 
+.left-\[calc\(-50vw\+50\%\)\]{
+  left: calc(-50vw + 50%);
+}
+
+.m-0{
+  margin: 0px;
+}
+
 .mx-16{
   margin-left: 4rem;
   margin-right: 4rem;
@@ -677,6 +685,18 @@ video {
   height: 100%;
 }
 
+.h-\[340px\]{
+  height: 340px;
+}
+
+.h-\[1000px\]{
+  height: 1000px;
+}
+
+.h-\[4000px\]{
+  height: 4000px;
+}
+
 .w-11\/12{
   width: 91.666667%;
 }
@@ -692,6 +712,10 @@ video {
 .w-max{
   width: -moz-max-content;
   width: max-content;
+}
+
+.w-\[100vw\]{
+  width: 100vw;
 }
 
 .max-w-screen-2xl{
@@ -763,16 +787,16 @@ video {
   justify-content: space-between;
 }
 
+.gap-3{
+  gap: 0.75rem;
+}
+
 .gap-5{
   gap: 1.25rem;
 }
 
 .gap-8{
   gap: 2rem;
-}
-
-.gap-3{
-  gap: 0.75rem;
 }
 
 .bg-gray-900{
@@ -850,8 +874,16 @@ video {
   background-image: url('./img/vt8.jpg');
 }
 
+.bg-\[url\(\'\.\/img\/cf-all\.jpg\'\)\]{
+  background-image: url('./img/cf-all.jpg');
+}
+
 .bg-cover{
   background-size: cover;
+}
+
+.bg-fixed{
+  background-attachment: fixed;
 }
 
 .bg-bottom{
@@ -868,6 +900,10 @@ video {
 
 .p-6{
   padding: 1.5rem;
+}
+
+.p-0{
+  padding: 0px;
 }
 
 .px-3{
