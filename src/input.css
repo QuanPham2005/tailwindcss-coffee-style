@@ -31,6 +31,5 @@
 }
 .cf-btn {
     @apply text-center uppercase tracking-wider py-4 px-8 text-[13px] font-semibold cursor-pointer 
-    hover:bg-opacity-95 ;
+    hover:bg-opacity-90 ;
 }
-

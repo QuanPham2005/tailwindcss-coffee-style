@@ -19,7 +19,6 @@ module.exports = {
       },
       keyframes:{
         slideDown:{'0%':{transform:'translateY(-100%)'},'100%':{transform: 'translateY(0)'},},
-        slideUp:{'0%':{transform:'translateY(100%)'},'100%':{transform: 'translateY(0)'},},
         fadeIn:{
           from:{opacity: '0'},
           to: {opacity: '1'},
@@ -28,7 +27,6 @@ module.exports = {
       animation: {
         slideDown:'slideDown .7s ease-in-out',
         fadeIn:'fadeIn .7s ease-in-out',
-        slideUp:'slideUp .7s ease-in-out',
       },
       backgroundImage:{
         'slider-bg' :'url("./img/first.jpg")'
